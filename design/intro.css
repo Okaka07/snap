@@ -195,10 +195,15 @@ section {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  height: 100%;
-  min-height: 100vh;
+  height: 100vh;
   gap: 5rem;
   width: 100%;
+}
+
+@media (min-width: 1300px) {
+  .hero {
+    height: auto;
+  }
 }
 .hero-image img {
   height: auto;
